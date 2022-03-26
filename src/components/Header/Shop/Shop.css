@@ -22,10 +22,16 @@
         grid-template-columns: repeat(2, 1fr);
         margin: 100px 15px;
     }
+    .card-container{
+        grid-template-columns: 1, 1fr;
+    }
 }
 @media screen and (min-width:776px) {
     .products-container{
-        grid-template-columns: repeat(1fr);
-        gap: 5;
+        grid-template-rows: 1fr;
+        margin: 5px;
+    }
+    .card-container{
+        grid-template-columns: 1, 1fr;
     }
 }
