@@ -1,6 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns:3fr 1fr;
+    margin: 0px;
 }
 .card-container{
     background-color: chocolate;
@@ -8,14 +9,21 @@
     height: 800px;
     
 }
+.btn{
+    background-color:goldenrod ;
+    padding: 10px;
+    margin: 5px;
+    border-radius:25px;
+    font-size: 14px;
+}
 .card-items{
     margin: 50px;
 }
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    margin: 10px  15px;
+    gap: 30px;
+    margin: 15px  10px;
 }
 @media screen and (max-width:980px) {
     .products-container{
@@ -31,7 +39,7 @@
     .products-container{
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns:1, 1fr;
         order: 1;
         
         

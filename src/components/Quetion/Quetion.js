@@ -18,7 +18,8 @@ const Quetion = () => {
             Determines how it will render.</p>
 
             <h4 className='Queition'>How useState..?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolorem atque ab aliquid, laboriosam reiciendis iure eius non culpa sit</p>
+            <p>
+            useState provides a pair of useState Hook Feedback Hold this status in the render Hook is a function that lets you "hook in" function They allow you to use feedback without class. Hook is a JavaScript function, but they impose two additional rules From the function element</p>
         </div>
     );
 };

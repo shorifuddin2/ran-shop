@@ -44,8 +44,8 @@ const Shop = () => {
                     {
                         cart.map(p=> <p>{p.name}</p>)
                     }
-                    <button>Select Items</button>
-                    <button onClick={()=>remove()}>Remove</button>
+                    <button className="btn">Select Items</button>
+                    <button className="btn" onClick={()=>remove()}>Remove</button>
                     
                 </div>
             </div>
